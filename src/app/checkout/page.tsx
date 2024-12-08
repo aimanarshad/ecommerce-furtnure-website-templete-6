@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Images from "../component/images";
 import Features from "../component/features";
 export default function Checkout() {
