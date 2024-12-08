@@ -1,7 +1,6 @@
 import Features from "../component/features"
-import Images from "../component/images"
 import Image from "next/image"
-
+import Link from "next/Link";
 export default function Product(){
     return(
         <>
@@ -34,12 +33,12 @@ export default function Product(){
     <h3 className="text-lg font-semibold text-gray-800">
       Go to Product page for more Products
     </h3>
-    <a
+    <Link
       href="#"
       className="text-sm text-gray-600 underline hover:text-gray-800"
     >
       View More
-    </a>
+    </Link>
   </div>
 
   

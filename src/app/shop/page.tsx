@@ -1,4 +1,3 @@
-import Images from "../component/images";
 import Image from "next/image";
 import Features from "../component/features";
 
